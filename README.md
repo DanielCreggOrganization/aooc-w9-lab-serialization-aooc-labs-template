@@ -103,7 +103,11 @@ public class Book implements Serializable {
 // File: Main.java
 package ie.atu.serialization;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
 public class Main {
     public static void main(String[] args) {
@@ -195,7 +199,11 @@ graph TD
 // File: Main.java
 package ie.atu.serialization;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -305,7 +313,7 @@ graph TD
 // File: UserProfile.java
 package ie.atu.serialization;
 
-import java.io.*;
+import java.io.Serializable;
 
 public class UserProfile implements Serializable {
     private String username;
@@ -333,7 +341,11 @@ public class UserProfile implements Serializable {
 // File: Main.java
 package ie.atu.serialization;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
 public class Main {
     public static void main(String[] args) {
@@ -453,7 +465,11 @@ public class Product implements Serializable {
 // File: Main.java
 package ie.atu.serialization;
 
-import java.io.*;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -596,7 +612,13 @@ graph TD
 // File: SerializationDemo.java
 package ie.atu.serialization;
 
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.util.logging.Logger;
 
 public class SecureProduct implements Serializable {
