@@ -37,7 +37,6 @@ package ie.atu.serialization;
 
 public class Main {
     public static void main(String[] args) {
-        // Create your CoffeeShop object here
         System.out.println("Hello, Java Serialization!");
     }
 }
